@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.header label {
+    font-size: 1.2rem;
+}
+
+.solar input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.modes input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.display input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.advanced-calculator div,
+.basic-calculator div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.advanced-calculator input,
+.basic-calculator input {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.equal {
+    background-color: #fc036b;
+    color: #fff;
+}
+
+.operator {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.clear {
+    background-color: #ccc;
+    color: #000;
+}
